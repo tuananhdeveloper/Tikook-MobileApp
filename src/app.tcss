@@ -1,0 +1,23 @@
+:root {
+  --color-primary: #e95c24;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-items {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+}
+
+.to-left {
+  left: 0;    
+}
+
+.to-right {
+  right: 0;
+}
+

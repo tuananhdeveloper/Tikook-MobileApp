@@ -1,0 +1,1 @@
+var SEARCH_PLACEHOLDER = 'Tôi muốn tìm công thức món';

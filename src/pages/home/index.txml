@@ -1,0 +1,104 @@
+<scroll-view class="container"
+    scroll-y="{{true}}">
+    <view class="appbar-home">
+      <image
+        scale="scaleToFit"
+        class="menu-items to-left"                
+        src="./../../assets/icons/ic_menu.svg"/>
+      <image 
+        scale="aspectFill"
+        class="image-logo"
+        src="./../../assets/logo.png"/>
+      <image 
+        scale="scaleToFit"
+        class="menu-items to-right"
+        src="./../../assets/icons/ic_search.svg"/>
+    </view>
+
+    <view class="searchbar px-medium pb-2x-small">
+      <search-bar
+        value=""
+        placeholder="Tôi muốn tìm công thức món..."
+        onSearch="onSearch"
+        onInput="onInput"
+        onConfirm="onConfirm"
+      />
+    </view>
+
+    <view class="text-view">
+      <text>Tìm ngay công thức món \n bạn yêu thích nhất</text>
+    </view>
+
+    <view class="mcarousel">
+      <carousel
+        arrows
+        indicator-dots
+        onChange="onChange">
+        <carousel-item>
+          <image mode="aspectFill" 
+          src="./../../assets/food.jpg" 
+            />
+        </carousel-item>
+        <carousel-item>
+          <image mode="aspectFill" 
+          src="./../../assets/food.jpg" 
+            />
+        </carousel-item>
+        <carousel-item>
+          <image mode="aspectFill" 
+          src="./../../assets/food.jpg" 
+            />
+        </carousel-item>
+        <carousel-item>
+          <image mode="aspectFill" 
+          src="./../../assets/food.jpg" 
+            />
+        </carousel-item>
+      </carousel>  
+    </view>
+    
+    <view class="chip-container">
+      <chip class="mt-medium mchip" content="Món chay"/>
+      <chip class="mt-medium mchip" content="Món bún" />
+      <chip class="mt-medium mchip" content="Món luộc" />
+      <chip class="mt-medium mchip" content="Món cơm tấm" />
+      <chip class="mt-medium mchip" content="Món cơm tấm" />
+      <chip class="mt-medium mchip" content="Món cơm tấm" />
+    </view>
+    <view onTap="_handleTap" class="item-recipes">
+      <image class="" mode="aspectFill" 
+        src="./../../assets/food.jpg"/>
+      <view class="item-recipes-content">
+        <view class="item-recipes-name">
+          <text>Canh chua cá lóc bông lau</text>
+        </view>
+        <view class="item-recipes-creator">
+          <text>TIKOOK</text>
+        </view>
+        <view class="item-recipes-more-info">
+          <view class="item-recipes-info-child item-recipes-time">
+            <image mode="aspectFill" 
+              style="width: 16px; height: 16px"
+              src="./../../assets/icons/ic_clock.svg"/>
+            <text>45 phút</text>
+          </view>
+          <view class="item-recipes-info-child item-recipes-ratings">
+            <image mode="aspectFill"
+              style="width: 16px; height: 16px"
+              src="./../../assets/icons/ic_star.svg"/>
+            <text>4.9</text>
+          </view>
+          <view class="item-recipes-info-child item-recipes-favorites">
+            <image mode="aspectFill"
+              style="width: 16px; height: 16px"
+              src="./../../assets/icons/ic_favorite.svg"/>
+              <text>400</text>
+          </view>
+          <view>
+          </view>
+        </view>
+      </view>
+    </view>
+</scroll-view>
+<navbar/>
+

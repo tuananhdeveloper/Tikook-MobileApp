@@ -1,0 +1,69 @@
+<view class="container">
+  <view class="appbar-home">
+      <image
+        scale="scaleToFit"
+        class="menu-items to-left"                
+        src="./../../assets/icons/ic_back.svg"/>
+  </view>
+
+  <view class="recipe-card">
+    <view>
+      <text>Canh chua cá lóc bông lau</text>
+    </view>
+    <view>
+      <text>Công thức của: TiKook</text>
+    </view>
+    <view>
+      <view class="rating-bar">                
+      </view>
+      <text>421 reviews</text>
+    </view>
+    <view class="mcarousel">
+      <carousel
+          arrows
+          indicator-dots
+          onChange="onChange">
+        <carousel-item>
+          <image mode="aspectFill" 
+            src="./../../assets/food.jpg" 
+             />
+        </carousel-item>
+        <carousel-item>
+          <image mode="aspectFill" 
+            src="./../../assets/food.jpg" 
+            />
+        </carousel-item>
+        <carousel-item>
+          <image mode="aspectFill" 
+          src="./../../assets/food.jpg" 
+              />
+        </carousel-item>
+        <carousel-item>
+          <image mode="aspectFill" 
+            src="./../../assets/food.jpg" 
+              />
+        </carousel-item>
+      </carousel>  
+    </view>                
+  <view>
+
+  </view>
+  </view>
+
+  <view class="recipe-statistics">
+    <view>
+
+    </view>
+    <view>
+
+    </view>
+    <view>
+      
+    </view>
+    <view>
+      
+    </view>      
+  </view>
+</view>
+<navbar/>
+

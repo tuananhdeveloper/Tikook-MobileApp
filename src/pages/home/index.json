@@ -1,0 +1,8 @@
+{
+  "titleBarBottomColor": "transparent",
+  "usingComponents": {
+    "search-bar": "./../../components/search-bar/index",
+    "chip": "@tiki.vn/tini-ui/es/chip/index",
+    "navbar": "./../../components/navbar/index"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ti-koo-k",
+  "version": "0.0.5",
+  "tiki": {
+    "appIdentifier": "vn.tiki.miniapp.TIKookI",
+    "buildNumber": 1
+  },
+  "dependencies": {
+    "@tiki.vn/tini-ui": "^0.12.0"
+  }
+}

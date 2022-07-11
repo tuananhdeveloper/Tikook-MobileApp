@@ -1,0 +1,12 @@
+<view class="navbar">
+  <image class="navbar-item" mode="scaleToFill" 
+    src="./../../assets/icons/ic_notifications.png" />
+  <image class="navbar-item" mode="scaleToFill" 
+      src="./../../assets/icons/ic_recipe_book.png" />
+  <image class="navbar-item" mode="scaleToFill" 
+      src="./../../assets/icons/ic_write_recipe.png" />
+  <image class="navbar-item" mode="scaleToFill" 
+      src="./../../assets/icons/ic_cart.png" />        
+  <image class="navbar-item" mode="scaleToFill" 
+      src="./../../assets/icons/ic_account.png" />
+</view>

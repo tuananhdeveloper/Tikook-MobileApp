@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/recipe-details/index"
+  ],
+  "window": {
+    "defaultTitle": "Ahihi"
+  }
+}

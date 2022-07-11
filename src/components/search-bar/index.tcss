@@ -1,0 +1,9 @@
+.search-category-list .category-grid-layout {
+  display: flex;
+  overflow-x: auto;
+  padding-left: 20px;
+}
+
+.t-input-placeholder {
+  color: #c5c5c5;
+}
